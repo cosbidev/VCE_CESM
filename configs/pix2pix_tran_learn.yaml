@@ -1,0 +1,31 @@
+seed: 0
+exp_name: pix2pix_tran_learn
+
+device:
+  cuda_device: cuda
+  gpu_num_workers: 2
+
+data:
+  cv: 10
+  img_dir: ./data/raw
+  fold_dir: ./data/processed/folds
+  img_dim: 256 #512
+  model_dir: ./models
+  report_dir: ./reports
+  batch_size: 128 #16
+
+model:
+  model_name: pix2pix
+  pretrained_model: 'pix2pix_public'
+  SAVE_MODEL: True
+
+trainer:
+  optimizer:
+    lr: 0.0002
+  early_stopping: 50
+  warm_up: 50
+  max_epochs: 200
+  L1_LAMBDA: 100
+  LAMBDA_GP: 10
+  CHECKPOINT_DISC: "disc.pth.tar"
+  CHECKPOINT_GEN: "gen.pth.tar"

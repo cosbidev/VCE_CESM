@@ -1,0 +1,17 @@
+id	img_x	img_y	r_l	wc_x	ww_x	wc_y	ww_y	acr
+P92_142_RCC	Dataset\Low Energy\P92_142_RCC_LOW_ENERGY.nrrd	Dataset\Recombined\P92_142_RCC_RECOMBINED.nrrd	R	2533	750	2085	265	c
+P10_68_LMLO	Dataset\Low Energy\P10_68_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P10_68_LMLO_RECOMBINED.nrrd	L	2179	903	2105	380	c
+P56_16_RMLO	Dataset\Low Energy\P56_16_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P56_16_RMLO_RECOMBINED.nrrd	R	2887	1150	2105	380	c
+P13_94_RMLO	Dataset\Low Energy\P13_94_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P13_94_RMLO_RECOMBINED.nrrd	R	2401	900	2105	380	c
+P50_170_LCC	Dataset\Low Energy\P50_170_LCC_LOW_ENERGY.nrrd	Dataset\Recombined\P50_170_LCC_RECOMBINED.nrrd	L	2293	900	2105	380	c
+P23_54_LCC	Dataset\Low Energy\P23_54_LCC_LOW_ENERGY.nrrd	Dataset\Recombined\P23_54_LCC_RECOMBINED.nrrd	L	2335	908	2105	380	c
+P12_70_LMLO	Dataset\Low Energy\P12_70_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P12_70_LMLO_RECOMBINED.nrrd	L	2305	900	2105	380	c
+P38_54_LMLO	Dataset\Low Energy\P38_54_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P38_54_LMLO_RECOMBINED.nrrd	L	2329	906	2105	380	c
+P103_76_RMLO	Dataset\Low Energy\P103_76_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P103_76_RMLO_RECOMBINED.nrrd	R	2317	760	2085	265	c
+P103_78_LMLO	Dataset\Low Energy\P103_78_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P103_78_LMLO_RECOMBINED.nrrd	L	2287	750	2085	265	c
+P10_64_LCC	Dataset\Low Energy\P10_64_LCC_LOW_ENERGY.nrrd	Dataset\Recombined\P10_64_LCC_RECOMBINED.nrrd	L	2143	911	2105	380	c
+P84_60_RCC	Dataset\Low Energy\P84_60_RCC_LOW_ENERGY.nrrd	Dataset\Recombined\P84_60_RCC_RECOMBINED.nrrd	R	2293	752	2085	265	c
+P16_100_RMLO	Dataset\Low Energy\P16_100_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P16_100_RMLO_RECOMBINED.nrrd	R	2371	900	2105	380	c
+P9_38_RMLO	Dataset\Low Energy\P9_38_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P9_38_RMLO_RECOMBINED.nrrd	R	2311	902	2105	380	c
+P16_104_LMLO	Dataset\Low Energy\P16_104_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P16_104_LMLO_RECOMBINED.nrrd	L	2383	900	2105	380	c
+P89_60_LMLO	Dataset\Low Energy\P89_60_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P89_60_LMLO_RECOMBINED.nrrd	L	2431	750	2085	265	c

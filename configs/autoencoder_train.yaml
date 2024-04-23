@@ -1,0 +1,30 @@
+seed: 0
+exp_name: autoencoder_train
+
+device:
+  cuda_device: cuda
+  gpu_num_workers: 32
+
+data:
+  cv: 10
+  data_file: ./data/raw/Dataset/file_dataset.xlsx
+  img_dir: ./data/raw
+  fold_public_dir: ./data/processed/folds_public
+  img_dim: 256
+  model_dir: ./models
+  report_dir: ./reports
+  batch_size: 128
+
+model:
+  model_name: autoencoder
+
+trainer:
+  optimizer:
+    lr: 0.001
+    weight_decay: 0.00001
+  scheduler:
+    mode: min
+    patience: 10
+  early_stopping: 50
+  warm_up: 50
+  max_epochs: 300

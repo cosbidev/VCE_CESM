@@ -1,0 +1,11 @@
+id	img_x	img_y	r_l	wc_x	ww_x	wc_y	ww_y	acr
+P59_324_LCC	Dataset\Low Energy\P59_324_LCC_LOW_ENERGY.nrrd	Dataset\Recombined\P59_324_LCC_RECOMBINED.nrrd	L	2377	901	2105	380	b
+P54_104_RCC	Dataset\Low Energy\P54_104_RCC_LOW_ENERGY.nrrd	Dataset\Recombined\P54_104_RCC_RECOMBINED.nrrd	R	2437	900	2105	380	b
+P95_46_RMLO	Dataset\Low Energy\P95_46_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P95_46_RMLO_RECOMBINED.nrrd	R	2407	750	2085	265	b
+P32_8_RMLO	Dataset\Low Energy\P32_8_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P32_8_RMLO_RECOMBINED.nrrd	R	2239	900	2105	380	b
+P54_108_RMLO	Dataset\Low Energy\P54_108_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P54_108_RMLO_RECOMBINED.nrrd	R	2401	900	2105	380	b
+P26_46_RCC	Dataset\Low Energy\P26_46_RCC_LOW_ENERGY.nrrd	Dataset\Recombined\P26_46_RCC_RECOMBINED.nrrd	R	2461	900	2105	380	b
+P19_78_RMLO	Dataset\Low Energy\P19_78_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P19_78_RMLO_RECOMBINED.nrrd	R	2209	900	2105	380	b
+P15_108_RMLO	Dataset\Low Energy\P15_108_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P15_108_RMLO_RECOMBINED.nrrd	R	2407	900	2105	380	b
+P26_50_RMLO	Dataset\Low Energy\P26_50_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P26_50_RMLO_RECOMBINED.nrrd	R	2365	900	2105	380	b
+P33_50_RCC	Dataset\Low Energy\P33_50_RCC_LOW_ENERGY.nrrd	Dataset\Recombined\P33_50_RCC_RECOMBINED.nrrd	R	2401	900	2105	380	b

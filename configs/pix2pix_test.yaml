@@ -1,0 +1,37 @@
+seed: 0
+exp_name: pix2pix_test
+
+device:
+  cuda_device: cuda
+  gpu_num_workers: 2
+
+dataset:
+  FPUCBM_train_val_test: False
+  FPUCBM_complete: False
+  FPUCBM_test_acr: True
+  Public_train_val_test: False
+
+data:
+  acr: d #a, b, c, d
+  cv: 10
+  img_dir: ./data/raw
+  fold_dir: ./data/processed/folds
+  fold_public_dir: ./data/processed/folds_public
+  fold_dir_acr: ./data/processed/folds_acr
+  img_dim: 256
+  model_dir: ./models
+  report_dir: ./reports
+  batch_size: 1
+
+model:
+  model_name: pix2pix
+  pretrained_model: 'pix2pix_tran_lear'
+
+trainer:
+  optimizer:
+    lr: 0.0002
+  CHECKPOINT_DISC: "disc.pth.tar"
+  CHECKPOINT_GEN: "gen.pth.tar"
+
+output:
+  save_img_output: False

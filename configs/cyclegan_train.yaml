@@ -1,0 +1,32 @@
+seed: 0
+exp_name: cyclegan_public
+
+device:
+  cuda_device: cuda
+  gpu_num_workers: 4
+
+data:
+  cv: 10
+  img_dir: ./data/raw
+  fold_public_dir: ./data/processed/folds_public
+  img_dim: 256
+  model_dir: ./models
+  report_dir: ./reports
+  batch_size: 8
+
+model:
+  model_name: cycle_gan
+  SAVE_MODEL: True
+
+trainer:
+  optimizer:
+    lr: 0.00001
+  early_stopping: 50
+  warm_up: 50
+  max_epochs: 300
+  LAMBDA_IDENTITY: 5
+  LAMBDA_CYCLE: 10
+  CHECKPOINT_GEN_REC: "genrec.pth.tar"
+  CHECKPOINT_GEN_LE: "genle.pth.tar"
+  CHECKPOINT_CRITIC_REC: "criticrec.pth.tar"
+  CHECKPOINT_CRITIC_LE: "criticle.pth.tar"

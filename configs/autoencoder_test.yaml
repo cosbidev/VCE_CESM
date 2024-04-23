@@ -1,0 +1,40 @@
+seed: 0
+exp_name: autoencoder_test
+
+device:
+  cuda_device: cuda
+  gpu_num_workers: 32
+
+dataset:
+  FPUCBM_train_val_test: False
+  FPUCBM_complete: False
+  FPUCBM_test_acr: True
+  Public_train_val_test: False
+
+data:
+  acr: d
+  cv: 10
+  data_file: ./data/raw/Dataset/file_dataset.xlsx
+  img_dir: ./data/raw
+  fold_dir: ./data/processed/folds
+  fold_public_dir: ./data/processed/folds_public
+  fold_dir_acr: ./data/processed/folds_acr
+  img_dim: 256
+  model_dir: ./models
+  report_dir: ./reports
+  batch_size: 1
+
+model:
+  model_name: autoencoder
+  pretrained_model: 'autoencoder_tran_lear'
+
+trainer:
+  optimizer:
+    lr: 0.001
+    weight_decay: 0.00001
+  scheduler:
+    mode: min
+    patience: 10
+
+output:
+  save_img_output: False

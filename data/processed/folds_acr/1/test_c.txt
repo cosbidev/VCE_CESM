@@ -1,0 +1,17 @@
+id	img_x	img_y	r_l	wc_x	ww_x	wc_y	ww_y	acr
+P10_66_RMLO	Dataset\Low Energy\P10_66_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P10_66_RMLO_RECOMBINED.nrrd	R	2191	900	2105	380	c
+P38_50_LCC	Dataset\Low Energy\P38_50_LCC_LOW_ENERGY.nrrd	Dataset\Recombined\P38_50_LCC_RECOMBINED.nrrd	L	2371	900	2105	380	c
+P84_60_RCC	Dataset\Low Energy\P84_60_RCC_LOW_ENERGY.nrrd	Dataset\Recombined\P84_60_RCC_RECOMBINED.nrrd	R	2293	752	2085	265	c
+P102_32_RMLO	Dataset\Low Energy\P102_32_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P102_32_RMLO_RECOMBINED.nrrd	R	2293	750	2085	265	c
+P90_128_LMLO	Dataset\Low Energy\P90_128_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P90_128_LMLO_RECOMBINED.nrrd	L	2257	750	2085	265	c
+P105_28_RMLO	Dataset\Low Energy\P105_28_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P105_28_RMLO_RECOMBINED.nrrd	R	2365	758	2085	265	c
+P4_26_LCC	Dataset\Low Energy\P4_26_LCC_LOW_ENERGY.nrrd	Dataset\Recombined\P4_26_LCC_RECOMBINED.nrrd	L	2287	900	2105	380	c
+P80_28_RMLO	Dataset\Low Energy\P80_28_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P80_28_RMLO_RECOMBINED.nrrd	R	2401	750	2085	265	c
+P50_172_LMLO	Dataset\Low Energy\P50_172_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P50_172_LMLO_RECOMBINED.nrrd	L	2251	900	2105	380	c
+P9_32_LCC	Dataset\Low Energy\P9_32_LCC_LOW_ENERGY.nrrd	Dataset\Recombined\P9_32_LCC_RECOMBINED.nrrd	L	2311	911	2105	380	c
+P36_14_RCC	Dataset\Low Energy\P36_14_RCC_LOW_ENERGY.nrrd	Dataset\Recombined\P36_14_RCC_RECOMBINED.nrrd	R	2407	912	2105	380	c
+P25_70_RMLO	Dataset\Low Energy\P25_70_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P25_70_RMLO_RECOMBINED.nrrd	R	2497	900	2105	380	c
+P102_34_LMLO	Dataset\Low Energy\P102_34_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P102_34_LMLO_RECOMBINED.nrrd	L	2341	750	2085	265	c
+P50_166_LMLO	Dataset\Low Energy\P50_166_LMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P50_166_LMLO_RECOMBINED.nrrd	L	2269	900	2105	380	c
+P90_124_RMLO	Dataset\Low Energy\P90_124_RMLO_LOW_ENERGY.nrrd	Dataset\Recombined\P90_124_RMLO_RECOMBINED.nrrd	R	2269	750	2085	265	c
+P1_22_RCC	Dataset\Low Energy\P1_22_RCC_LOW_ENERGY.nrrd	Dataset\Recombined\P1_22_RCC_RECOMBINED.nrrd	R	2191	900	2105	380	c
