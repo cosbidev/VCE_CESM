@@ -27,7 +27,7 @@ For questions and comments, feel free to contact me: aurora.rofena@unicampus.it
 
 # Citation
 If you use our code in your studt, please cite as:
-(A Deep Learning Approach for Virtual Contrast Enhancement in Contrast Enhanced Spectral Mammography)[https://arxiv.org/abs/2308.00471]
+[A Deep Learning Approach for Virtual Contrast Enhancement in Contrast Enhanced Spectral Mammography](https://arxiv.org/abs/2308.00471)
 
 # License
-The code is distributed under a (MIT License)[https://github.com/cosbidev/VCE_CESM#MIT-1-ov-file]
+The code is distributed under a [MIT License](https://github.com/cosbidev/VCE_CESM#MIT-1-ov-file)
