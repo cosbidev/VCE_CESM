@@ -1,32 +1,48 @@
-# VCE_CESM
-This repository contains the code used to run experiments related to Virtual Contrast Enhancemnt CESM.
+# A Deep Learning Approach for Virtual Contrast Enhancement in Contrast Enhanced Spectral Mammography
+This repository contains the code used to run experiments related to Virtual Contrast Enhancement CESM.
 
-The code is organized into two folders for the main topics covered:
+## Installation
 
-Folder "VCE": contains the code used for Virtual Contrast Enhancement.
-Folder "Low_Dose": contains the code used to generate high-energy full-dose images from simulated high-energy low-dose images.
-Both folders are divided into 4 subfolders:
+### Clone the repository
+```bash
+git clone
+cd VCE_CESM
+```
 
-"configs": contains YAML files used to set experiment parameters.
-"data": contains "raw" and "processed" folders. The "processed" folder contains TXT files with paths to dataset images, while the "raw" folder should contain images without preprocessing.
-"models": contains trained models.
-"src/src_lowdose": contains "model" and "utils" folders. The "model" folder includes subfolders for Autoencoder, CycleGAN, and PixPix, each containing specific model code. The "utils" folder includes generic utility code and "util_data/util_data_lowdose" code for image processing.
-Folder "VCE":
+### Install dependencies
 
-For each model (Autoencoder, CycleGAN, and Pix2Pix), you can run training, transfer learning, or testing code. These codes are located in the "src -> model -> Autoencoder/CycleGAN/Pix2Pix" folders.
+#### Using virtualenv
+1) First, create a Python virtual environment (optional) using the following command:
+```bash
+python -m venv ve-vce_cesm
+```
 
-Running the training code trains the model on the public dataset. Experiment parameters can be set using the configuration files "autoencoder_train.yaml", "cyclegan_train.yaml", or "pix2pix_train.yaml".
-Running the transfer learning code loads a pre-trained model on the public dataset and retrains it on the FPUCBM dataset. Experiment parameters, including the pre-trained model to load, can be set using the configuration files "autoencoder_tran_learn.yaml", "cyclegan_tran_learn.yaml", or "pix2pix_tran_learn.yaml".
-Running the test code tests the trained model on the desired dataset. Experiment parameters, including the test dataset, can be set using the configuration files "autoencoder_test.yaml", "cyclegan_test.yaml", or "pix2pix_test.yaml".
-Folder "Low_Dose":
+2) Activate the virtual environment using the following command:
+```bash
+source ve-vce_cesm/bin/activate
+```
 
-For each model (Autoencoder, CycleGAN, and Pix2Pix), you can run training code located in the "src_lowdose -> model -> Autoencoder/CycleGAN/Pix2Pix" folders. Experiment parameters can be set using the configuration files "autoencoder_lowdose.yaml", "cyclegan_lowdose.yaml", or "pix2pix_lowdose.yaml", including values for "k" and noise (reported as "perc").
+3) Install the dependencies using the following command:
+```bash
+pip install -r requirements.txt
+```
+
+The code is organized into three folders:
+1) "configs": contains YAML files used to set experiment parameters.
+2) "data": contains "raw" and "processed" folders. The "processed" folder contains TXT files with paths to dataset images, while the "raw" folder should contain images without preprocessing.
+3) "src": contains "model" and "utils" folders. The "model" folder includes subfolders for Autoencoder, CycleGAN, and PixPix, each containing specific model code. The "utils" folder includes the "utils.py" generic utility code and the "util_data.py" code for image processing.
+
+For each model (Autoencoder, CycleGAN, and Pix2Pix), you can run training, transfer learning, or testing code.
+These codes are located in the "src -> model -> Autoencoder/CycleGAN/Pix2Pix" folders.
+1) Running the training code trains the model on the public dataset. Experiment parameters can be set using the configuration files "autoencoder_train.yaml", "cyclegan_train.yaml", or "pix2pix_train.yaml".
+2) Running the transfer learning code loads a pre-trained model on the public dataset and retrains it on the FPUCBM dataset. Experiment parameters, including the pre-trained model to load, can be set using the configuration files "autoencoder_tran_learn.yaml", "cyclegan_tran_learn.yaml", or "pix2pix_tran_learn.yaml".
+3) Running the test code tests the trained model on the desired dataset. Experiment parameters, including the test dataset, can be set using the configuration files "autoencoder_test.yaml", "cyclegan_test.yaml", or "pix2pix_test.yaml".
 
 # Contact
-For questions and comments, feel free to contact me: aurora.rofena@unicampus.it
+For questions and comments, feel free to contact: aurora.rofena@unicampus.it, valerio.guarrasi@unicampus.it
 
 # Citation
-If you use our code in your studt, please cite as:
+If you use our code in your study, please cite as:
 [A Deep Learning Approach for Virtual Contrast Enhancement in Contrast Enhanced Spectral Mammography](https://arxiv.org/abs/2308.00471)
 
 # License
