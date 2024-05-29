@@ -52,8 +52,8 @@ If you use our code in your study, please cite as:
   year={2024},
   publisher={Elsevier}
 }
-[A Deep Learning Approach for Virtual Contrast Enhancement in Contrast Enhanced Spectral Mammography](https://doi.org/10.1016/j.compmedimag.2024.102398)
 ```
+[A Deep Learning Approach for Virtual Contrast Enhancement in Contrast Enhanced Spectral Mammography](https://doi.org/10.1016/j.compmedimag.2024.102398)
 
 # License
 The code is distributed under a [MIT License](https://github.com/cosbidev/VCE_CESM#MIT-1-ov-file)
