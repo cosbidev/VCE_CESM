@@ -42,8 +42,8 @@ These codes are located in the "src -> model -> Autoencoder/CycleGAN/Pix2Pix" fo
 For questions and comments, feel free to contact: aurora.rofena@unicampus.it, valerio.guarrasi@unicampus.it
 
 # Citation
-```bash
 If you use our code in your study, please cite as:
+```bash
 @article{rofena2024deep,
   title={A deep learning approach for virtual contrast enhancement in contrast enhanced spectral mammography},
   author={Rofena, Aurora and Guarrasi, Valerio and Sarli, Marina and Piccolo, Claudia Lucia and Sammarra, Matteo and Zobel, Bruno Beomonte and Soda, Paolo},
@@ -53,6 +53,7 @@ If you use our code in your study, please cite as:
   publisher={Elsevier}
 }
 ```
+You can download the article at:
 [A Deep Learning Approach for Virtual Contrast Enhancement in Contrast Enhanced Spectral Mammography](https://doi.org/10.1016/j.compmedimag.2024.102398)
 
 # License
